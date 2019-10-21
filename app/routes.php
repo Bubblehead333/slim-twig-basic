@@ -1,11 +1,9 @@
 <?php
 
-// $app->get('/', function($request, $response){
-//     return $this->view->render($response, 'index.twig');
-// });
-//
-// $app->get('/media', function($request, $response){
-//     return 'Media';
-// });
+/*
+* Create your routes to all URLs here. Make sure the first argument of the get
+* method is the API path, and the second a link to an existing Class:method.
+* This method can then return a rendered twig template.
+*/
 
 $app->get('/', 'HomeController:index');
