@@ -1,7 +1,6 @@
 # slim-twig-basic
 <h2>Slim/Twig Basic Framework</h2>
 <img src="https://scrutinizer-ci.com/g/Bubblehead333/slim-twig-basic/badges/build.png?b=master">
-<img src="https://scrutinizer-ci.com/g/Bubblehead333/slim-twig-basic/badges/code-intelligence.svg?b=master">
 
 This project contains the Slim framework and uses Twig templates to render views.
 It is intended to be a convenient solution for building lightweight websites.
