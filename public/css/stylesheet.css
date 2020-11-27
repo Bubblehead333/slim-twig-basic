@@ -58,15 +58,14 @@ li a:hover {
     font-family: 'Castoro';
     font-weight: bolder;
     font-size: 36px;
-    color: white;
+    color: #2E2E2E;
     width: 70px;
-
 }
 
 .card p {
     font-size: 16px;
     font-family: 'Segoe UI';
-    color: white;
+    color: #2E2E2E;
     font-weight: lighter;
 }
 
