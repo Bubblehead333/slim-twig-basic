@@ -17,6 +17,15 @@ p {
     font-size: 18px;
 }
 
+a {
+    color: #75B9BE;
+}
+
+a:hover{
+    color: #D0D6B5;
+    text-decoration: none;
+}
+
 .text-center {
     text-align: center;
 }
@@ -35,4 +44,30 @@ p {
 
 .kalam {
     font-family: 'Kalam', cursive;
+}
+
+.quote {
+    font-family: 'Castoro', cursive;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+.title {
+    margin-top: 10px;
+    margin-right: 10px;
+    font-family: 'Castoro', sans-serif;
+    padding: 10px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.how-works{
+    font-weight: bold;
+    padding:20px;
+    font-family: 'Kalam', cursive;
+    color: #75B9BE;
 }
