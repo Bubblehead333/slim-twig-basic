@@ -4,42 +4,35 @@
 <div class="top-bar grad-blue-green"></div>
 <div class="header-image">
     <div class="container">
-        <h1 class="header-text">Lev Academic</h1>
+        <h1 class="header-text"><img class="header-icon"src="{{ base_url() }}/assets/images/levDiamond.png">
+            Lev Academic
+        </h1>
+        <div class="top-bar grad-blue-green"></div>
         <h2 class="subheader-text">
             Lev Academic offers bespoke publishing services for
             <span class="kalam bold font-blue">authors, publishers,</span> and
             <span class="kalam bold font-blue">societies</span> in the scholarly
             publishing world.
         </h2>
+        <div class="top-bar grad-blue-green"></div>
     </div>
 </div>
-<!-- <div class="title-block bg-black">
-    <div class="container">
-        <h2 class="title">For authors</h2>
-    </div>
-</div> -->
-<div class="block-spacing">
-    <div class="container">
-        <div class="row">
-            <div clasas="col-sm-12">
-                <h2 class="font-white bg-black castoro text-center padding-40">
-                    Are you an early career academic looking to publish your
-                    first paper but not sure where to start?
-                </h2>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="">
+
+<div class="block">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
+                <h2 class="font-black castoro text-center padding-40">
+                    Are you an early career academic looking to publish your
+                    first paper but not sure where to start?
+                </h2>
                 <p class="padding-20">
                     Are you new to the
                     world of academic publishing and want a no-nonsense
                     information and jargon busting introduction to the field?
                     We provide a thorough, practical and 100% impartial
                     introduction to the world of academic publishing.
+                    <hr>
                 </p>
                 <p class="padding-20">
                     Also available as part of an individual consultancy package
@@ -52,18 +45,23 @@
     </div>
 </div>
 
-<div class="full-block bg-black block-spacing">
-    hello
-</div>
-
-
 <!--Authors-->
-<div class="block block-spacing">
+<div class="full-block bg-black" id="for-authors">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-6">
-                <h2 class="title font-black text-right">For authors</h2>
-                <hr>
+                <h2 class="title font-black text-right font-white">For <span class="kalam bold font-blue">authors</span></h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="block">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <!-- <h2 class="title font-black text-right">For authors</h2> -->
+                <!-- <hr> -->
                 <p class="padding-20 text-right">
                     At Lev Academic, we believe that there is no “one size fits
                     all” approach when choosing the right journals to submit
@@ -83,15 +81,16 @@
                     help you meet the technical criteria for submission.
                 </p>
             </div>
-            <div class="col-sm-12 col-md-6 grad-blue-green">
+            <div class="col-sm-12 col-md-6 grad-blue-green quote-box">
                 <h2 class="font-black quote margin-top-20">
                     "We believe that there is no “one size fits all” approach
                     when choosing the right journals to submit your work to."
                 </h2>
+            </div>
         </div>
     </div>
 </div>
-<div class="full-block bg-black block-spacing">
+<div class="full-block bg-black">
     <div class="container padding-40">
         <div class="row">
             <h2 class="how-works">How it works</h2>
@@ -126,19 +125,31 @@
     </div>
 </div>
 
+<!--Something here-->
+<div class="grad-blue-green" style="height:400px;">
+    Something here
+</div>
+
+
 <!--For Publishers and Societies-->
-<div class="block-spacing">
+<div class="full-block bg-black" id="for-publishers">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <h2 class="title font-black text-right font-white">For <span class="kalam bold font-blue">Publishers and Societies</span></h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="block">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12">
-                <h2 class="title font-black">
-                    For Publishers and Societies
-                </h2>
-                <hr>
-                <p class="padding-20 ">
+                <h2 class="font-black castoro">
                     Lev academic specialises in full spectrum journal management
                     and content support, including:
-                </p>
+                </h2>
                 <ul class="lev-list">
                     <li>Relationship Management</li>
                     <li>Journal Development</li>
@@ -148,7 +159,7 @@
                     <li>Reporting and systems analysis</li>
                 </ul>
                 <hr>
-                <h2>Content Management</h2>
+                <h2 class="font-black castoro">Content Management</h2>
                 <ul class="lev-list">
                     <li>Pre-acceptance administrative support, including editorial checks, journal inbox management, and peer review coordination.</li>
                     <li>Editor training on submission systems (ScholarOne and Editorial Manager)</li>
@@ -157,7 +168,7 @@
                     <li>Publication timeline management and Journal issue formation and delivery</li>
                 </ul>
                 <hr>
-                <h2>Ad Hoc Support</h2>
+                <h2 class="font-black castoro">Ad Hoc Support</h2>
 
                 <ul class="lev-list">
                     <li>Social media and marketing support</li>
@@ -168,7 +179,7 @@
         </div>
     </div>
 </div>
-<div class="full-block bg-black block-spacing">
+<div class="full-block bg-black">
     <div class="container padding-40">
         <div class="row">
             <h2 class="how-works">How it works</h2>
@@ -203,8 +214,46 @@
     </div>
 </div>
 
+<!--Testimonals-->
+<div class="row">
+    <div class="col-sm-4">
+        <div class="testimonial-card">
+            <div class="testimonial-text text-center">"Emma is pretty rad"<i class="fas fa-quote-right testimonial-quote"></i>
+            </div>
+            <div class="testimonial-footer">
+                <div class="testimonial-image">
+                </div>
+                <h3 class="testimonial-person">Josh Lyell</h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="testimonial-card">
+            <div class="testimonial-text text-center">"Emma is pretty rad"<i class="fas fa-quote-right testimonial-quote"></i>
+            </div>
+            <div class="testimonial-footer">
+                <div class="testimonial-image">
+                </div>
+                <h3 class="testimonial-person">Josh Lyell</h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="testimonial-card">
+            <div class="testimonial-text text-center">"Emma is pretty rad"<i class="fas fa-quote-right testimonial-quote"></i>
+            </div>
+            <div class="testimonial-footer">
+                <div class="testimonial-image">
+                </div>
+                <h3 class="testimonial-person">Josh Lyell</h3>
+            </div>
+        </div>
+    </div>
+</div>
 
-<div class="card-block block-spacing bg-black">
+
+
+<!-- <div class="card-block block-spacing bg-black">
     <div class="row">
         <div class="col-sm-12">
             <div class="row">
@@ -243,7 +292,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- <div class="full-image">
 </div>
 <div class="full-block grad-pink-purple text-center block-spacing">
